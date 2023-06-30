@@ -7,7 +7,7 @@ import NavBar from "../components/NavBar";
 import AppContext from "../components/AppContext";
 
 // Input api key to run
-const API_KEY = null;
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 const WordQuiz = () => {
   const appContext = useContext(AppContext);
